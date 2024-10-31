@@ -1,0 +1,210 @@
+/*========================Google Font Link=======================*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+/*========================Google Font Link=======================*/
+/*==========================Common CSS============================*/
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* ~~~ color ~~~~~ */
+  --primary-black: #262626;
+  --primary-bg: #d8d8d8;
+  --light-gray: #767676;
+  --gray: #6d6d6d;
+  --nav-footer: #f5f5f3;
+  /* ~~~ color ~~~~~ */
+  /* ~~~ Font Size ~~~~~ */
+  --heading-1: 49px;
+  --heading-2: 39px;
+  --base-font: 16px;
+  --semi-base: 20px;
+  --small-font: 14px;
+  /* ~~~ Font Size ~~~~~ */
+  /* ~~~ Font weight ~~~~~ */
+  --font-bold: 700;
+  --font-normal: 400;
+  /* ~~~ Font weight ~~~~~ */
+}
+body {
+  font-family: "DM Sans", sans-serif;
+}
+span {
+  display: inline-block;
+}
+p,
+span,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  /*Makelinksinheritthetextcolor*/
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out;
+}
+a:hover {
+  color: var(--primary-black);
+  font-weight: var(--font-bold);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/*==========================Common CSS============================*/
+
+/*==============================Navbar CSS=================================*/
+.customNav {
+  background-color: var(--primary_background_color);
+}
+.customnavItem {
+  margin-right: 32px;
+}
+.customnavItem a {
+  color: var(--primary_font_color);
+  transition: all linear 0.2s;
+}
+.customnavItem a:hover {
+  color: var(--secondary_font_color);
+}
+
+/*==============================Navbar CSS=================================*/
+
+/*==========================SearchBar CSS==============================*/
+.secondNav {
+  background-color: var(--nav-footer);
+}
+.box {
+  height: 50px;
+  display: flex;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: var(--primary_background_color);
+  border-radius: 100px;
+  align-items: center;
+  box-shadow: 0px 10px 25px rgb(0, 0, 0, 0.3);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+.box:hover input {
+  width: 600px;
+}
+.box input {
+  width: 0px;
+  outline: none;
+  border: none;
+  font-weight: 500px;
+  transition: 0.8s;
+  background: transparent;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -o-transition: 0.8s;
+}
+.box a .fas {
+  color: var(--primary_font_color);
+  font-size: 18px;
+}
+/*==========================SearchBar CSS==============================*/
+/*==========================Contact CSS==============================*/
+#contactPart {
+  padding: 100px 0;
+}
+.contactAll__title {
+  font-size: var(--heading-1);
+  font-weight: var(--font-bold);
+}
+.contactAll__home {
+  margin-left: 5px;
+  font-size: 12px;
+  font-weight: 400px;
+  opacity: 0.7;
+}
+/*==========================Contact CSS==============================*/
+/*==========================Form CSS==============================*/
+#formPart {
+  padding: 100px 0;
+}
+.formUp__title {
+  font-size: var(--heading-2);
+  font-weight: var(--font-bold);
+  color: var(--primary_font_color);
+}
+.customBtn {
+  padding: 16px 48px;
+  color: var(--primary-bg);
+  background-color: var(--primary-black);
+  border: 2px solid rgba(246, 247, 250, 0.227);
+  font-size: 16px;
+  font-weight: 500px;
+}
+.customBtn:hover {
+  color: var(--primary-black);
+  background-color: var(--light-gray);
+}
+/*==========================Form CSS==============================*/
+/*==========================Form CSS==============================*/
+#mappingPart {
+  padding: 100px 0;
+}
+/*==========================Form CSS==============================*/
+/*==========================Footer CSS==============================*/
+
+footer {
+  background: var(--nav-footer);
+  padding: 55px 0;
+  margin-top: 128px;
+}
+footer .footerLogo {
+  width: 35%;
+}
+footer .socialApp {
+  font-size: 20px;
+  margin-right: 15px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+footer .socialApp:hover {
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  color: #767676;
+}
+
+/*==========================Footer CSS==============================*/
