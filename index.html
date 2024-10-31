@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--=================================Font Awesome Link====================================-->
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-462758aa1e172f82d39e1ea35e919e0a.css?vsn=d"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css"
+    />
+    <!--=================================Font Awesome Link====================================-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Orebi</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+      </head>
+      <body>
+        <!--===============================Navbar Markup===================================-->
+        <nav class="navbar navbar-expand-lg customNav">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <picture>
+                <img src="./images/Logo.png" alt="Logo.png" />
+              </picture>
+            </a>
+            <!--============Toggle Navbar Button==============-->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--============Toggle Navbar Button==============-->
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav m-auto">
+                <li class="customnavItem">
+                  <a class="#" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="customnavItem">
+                  <a class="#" aria-current="page" href="#">Shop</a>
+                </li>
+                <li class="customnavItem">
+                  <a class="#" aria-current="page" href="#">About</a>
+                </li>
+                <li class="customnavItem">
+                  <a class="#" aria-current="page" href="#">Contacts</a>
+                </li>
+                <li class="customnavItem">
+                  <a class="#" aria-current="page" href="#">Journal</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!--===============================Navbar Markup===================================-->
+        <!--======================================SearchBar Markup==================================-->
+        <nav class="navbar navbar secondNav">
+          <div class="container">
+            <div class="category">
+              <div class="dropdown d-flex flex-row gap-2">
+                <a
+                  class="btn d-flex column-gap-3"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span><i class="fa-solid fa-bars-sort"></i></span>
+                  <p>Shop by Category</p>
+                </a>
+                <ul class="footerNavbar mt-3 dropdown-menu">
+                  <li><a class="dropdown-item" href="">Category 1</a></li>
+                  <li><a class="dropdown-item" href="">Category 2</a></li>
+                  <li><a class="dropdown-item" href="">Category 3</a></li>
+                  <li><a class="dropdown-item" href="">Category 4</a></li>
+                  <li><a class="dropdown-item" href="">Category 5</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="box m-auto">
+              <input type="text" placeholder="Search Products" />
+              <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+            <div class="chart d-flex align-items-center">
+              <div class="dropdown">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span><i class="fa-solid fa-user"></i></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">User 1</a></li>
+                  <li><a class="dropdown-item" href="#">User 2</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">User 3</a>
+                  </li>
+                </ul>
+              </div>
+              <span><i class="fa-solid fa-cart-shopping"></i></span>
+            </div>
+          </div>
+        </nav>
+
+        <!--======================================SearchBar Markup==================================-->
+        <!--======================================Contact Markup==================================-->
+        <section id="contactPart">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="contactAll">
+                  <h1 class="contactAll__title">Contact</h1>
+                  <p class="contactAll__home">Home > Contacts</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--======================================Contact Markup==================================-->
+        <!--======================================Form Markup==================================-->
+        <section id="formPart">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="formUp">
+                  <h2 class="formUp__title">Fill up a Form</h2>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="row">
+                  <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-lg-12">
+                      <div class="col-md-4">
+                        <label for="validationCustom01" class="form-label"
+                          >Name</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="validationCustom01"
+                          value=""
+                          required
+                          placeholder="Your Name"
+                        />
+                        <div class="valid-feedback">Looks good!</div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label"
+                          >Email</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="inputEmail4"
+                          placeholder="someone@gmail.com"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="mb-4">
+                        <label class="form-label" for="feedback_comments"
+                          >Message:</label
+                        >
+                        <textarea
+                          class="form-control"
+                          required
+                          rows="6"
+                          name="comments"
+                          id="feedback_comments"
+                          placeholder="Your messages here..."
+                        ></textarea>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <button class="customBtn">Post</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--======================================Form Markup==================================-->
+        <!--======================================Map Markup==================================-->
+        <section id="mappingPart">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3051.58940822584!2d-75.14387901522275!3d40.106866497983006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b08e265202c9%3A0x44bacadf07fa5b5a!2zNTc1IENyZXNjZW50IEF2ZSwgR2xlbnNpZGUsIFBBIDE5MDM4LCDgpq7gpr7gprDgp43gppXgpr_gpqgg4Kav4KeB4KaV4KeN4Kak4Kaw4Ka-4Ka34KeN4Kaf4KeN4Kaw!5e0!3m2!1sbn!2sbd!4v1730240636828!5m2!1sbn!2sbd"
+                  width="1385px"
+                  height="372px"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--======================================Map Markup==================================-->
+        <!--======================================Footer Markup==================================-->
+
+        <footer>
+          <div class="container">
+            <div
+              class="row justify-content-around justify-content-lg-between text-center text-lg-start gy-4 gy-lg-0"
+            >
+              <div class="col-lg-2 col-6 col-md-4">
+                <div class="footerNav">
+                  <h4 class="footerTitle">Menu</h4>
+                  <ul class="footerNavbar mt-3">
+                    <li><a class="Info" href="">Home</a></li>
+                    <li><a class="Info" href="">Shop</a></li>
+                    <li><a class="Info" href="">About</a></li>
+                    <li><a class="Info" href="">Contact</a></li>
+                    <li><a class="Info" href="">Journal</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-2 col-6 col-md-4">
+                <div class="footerNav">
+                  <h4 class="footerTitle">SHOP</h4>
+                  <ul class="footerNavbar mt-3">
+                    <li><a class="Info" href="">Category 1</a></li>
+                    <li><a class="Info" href="">Category 2</a></li>
+                    <li><a class="Info" href="">Category 3</a></li>
+                    <li><a class="Info" href="">Category 4</a></li>
+                    <li><a class="Info" href="">Category 5</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-2 col-6 col-md-4">
+                <div class="footerNav">
+                  <h4 class="footerTitle">HELP</h4>
+                  <ul class="footerNavbar mt-3">
+                    <li><a class="Info" href="">Privacy Policy</a></li>
+                    <li><a class="Info" href="">Terms & Conditions</a></li>
+                    <li><a class="Info" href="">Special E-shop</a></li>
+                    <li><a class="Info" href="">Shipping</a></li>
+                    <li><a class="Info" href="">Secure Payments</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-2 col-6 col-md-4">
+                <div class="footerNav">
+                  <h4 class="footerTitle">(052) 611-5711 company@domain.com</h4>
+                  <p class="Info mt-3">
+                    575 Crescent Ave. Quakertown, PA 18951
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-8">
+                <div class="text-center">
+                  <a
+                    ><img
+                      class="footerLogo mt-md-5 mt-lg-0"
+                      src="./images/Logo.png"
+                      alt="Logo.png"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="footerEnd mt-5 d-flex justify-content-between">
+              <div class="social">
+                <span class="socialApp"
+                  ><i class="fa-brands fa-facebook-f"></i></span
+                ><span class="socialApp"
+                  ><i class="fa-brands fa-linkedin-in"></i></span
+                ><span class="socialApp"
+                  ><i class="fa-brands fa-instagram"></i
+                ></span>
+              </div>
+              <p class="Info text-end w-75 w-lg-100">
+                2020 Orebi Minimal eCommerce Figma Template by Adveits
+              </p>
+            </div>
+          </div>
+        </footer>
+
+        <!--======================================Footer Markup==================================-->
+      </body>
+    </html>
+    <!--=========================My JS Link============================-->
+
+    <script src="./js/script.js"></script>
+    <!--========================= My JS Link============================-->
+
+    <!--=========================JS CDN Link============================-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!--=========================JS CDN Link============================-->
+  </body>
+</html>
